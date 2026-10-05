@@ -1,3 +1,9 @@
+import heroChocolateAtelierImg from '../assets/images/hero_chocolate_atelier_1791182082565.jpg';
+import craftTemperingMarbleImg from '../assets/images/craft_tempering_marble_1791182143093.jpg';
+import productMadagascarBarImg from '../assets/images/product_madagascar_bar_1791182104345.jpg';
+import productPralineBonbonsImg from '../assets/images/product_praline_bonbons_1791182118690.jpg';
+import productPistachioBarkImg from '../assets/images/product_pistachio_bark_1791182131132.jpg';
+
 export interface ProductVariant {
   id: string;
   label: string;
@@ -47,8 +53,8 @@ export interface BonbonPiece {
   accentRing: string;
 }
 
-export const HERO_IMAGE = '/src/assets/images/hero_chocolate_atelier_1791182082565.jpg';
-export const CRAFT_IMAGE = '/src/assets/images/craft_tempering_marble_1791182143093.jpg';
+export const HERO_IMAGE = heroChocolateAtelierImg;
+export const CRAFT_IMAGE = craftTemperingMarbleImg;
 
 export const PRODUCTS: ChocolateProduct[] = [
   {
@@ -68,7 +74,7 @@ export const PRODUCTS: ChocolateProduct[] = [
     pairings: ['Pinot Noir', 'Washed Ethiopian Pour-Over', 'Aged Comté'],
     ingredients: 'Organic Madagascar cacao beans, organic unrefined cane sugar, pure estate cocoa butter.',
     allergens: 'Crafted in an atelier that handles tree nuts and dairy.',
-    image: '/src/assets/images/product_madagascar_bar_1791182104345.jpg',
+    image: productMadagascarBarImg,
     imagePosition: 'center center',
     accentHue: '#7A2E21',
     tastingMetrics: {
@@ -101,7 +107,7 @@ export const PRODUCTS: ChocolateProduct[] = [
     pairings: ['Ristretto', '10-Year Tawny Port', 'Pedro Ximénez Sherry'],
     ingredients: 'Venezuelan cacao mass, Piedmont IGP hazelnuts, cane sugar, Normandy cultured butter, heavy cream, espresso bean infusion, Guérande sea salt.',
     allergens: 'Contains hazelnuts (tree nuts) and dairy.',
-    image: '/src/assets/images/product_praline_bonbons_1791182118690.jpg',
+    image: productPralineBonbonsImg,
     imagePosition: 'center center',
     accentHue: '#5C3A21',
     tastingMetrics: {
@@ -134,7 +140,7 @@ export const PRODUCTS: ChocolateProduct[] = [
     pairings: ['Franciacorta Satèn', 'Jasmine Silver Needle Tea', 'Amaro Montenegro'],
     ingredients: 'Bolivian wild cacao beans, Bronte DOP green pistachios, candied bergamot peel, organic cane sugar, cocoa butter, flaky sea salt.',
     allergens: 'Contains pistachios (tree nuts). Dairy-free.',
-    image: '/src/assets/images/product_pistachio_bark_1791182131132.jpg',
+    image: productPistachioBarkImg,
     imagePosition: 'center center',
     accentHue: '#4F5D38',
     tastingMetrics: {
@@ -166,7 +172,7 @@ export const PRODUCTS: ChocolateProduct[] = [
     pairings: ['Islay Single Malt', 'Double Espresso', 'Stilton'],
     ingredients: 'Chuao Criollo cacao beans, organic raw cane sugar, pure cocoa butter.',
     allergens: 'Dairy-free & soy-free. Crafted in an atelier that handles tree nuts.',
-    image: '/src/assets/images/product_madagascar_bar_1791182104345.jpg',
+    image: productMadagascarBarImg,
     imagePosition: 'left bottom',
     accentHue: '#382218',
     tastingMetrics: {
@@ -198,7 +204,7 @@ export const PRODUCTS: ChocolateProduct[] = [
     pairings: ['Vintage Champagne', 'Oolong Tea', 'Armagnac XO'],
     ingredients: 'Single-origin cacao mass, Normandy cream, Venezuelan tonka bean, Tahitian vanilla pod, organic cane sugar, 24k edible gold leaf.',
     allergens: 'Contains dairy and tree nuts.',
-    image: '/src/assets/images/hero_chocolate_atelier_1791182082565.jpg',
+    image: heroChocolateAtelierImg,
     imagePosition: 'center center',
     accentHue: '#8C4A27',
     tastingMetrics: {
@@ -230,7 +236,7 @@ export const PRODUCTS: ChocolateProduct[] = [
     pairings: ['Sauternes', 'Cold Brew Coffee', 'Manchego Curado'],
     ingredients: 'Piura Valley cacao beans, caramelized cacao nibs, organic cane sugar, Camargue fleur de sel.',
     allergens: 'Dairy-free. Crafted in an atelier that handles tree nuts.',
-    image: '/src/assets/images/product_pistachio_bark_1791182131132.jpg',
+    image: productPistachioBarkImg,
     imagePosition: 'right top',
     accentHue: '#6B4226',
     tastingMetrics: {
