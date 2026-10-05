@@ -1,0 +1,6 @@
+{
+  "name": "Maison Valrône — Artisanal Chocolatier",
+  "description": "Single-origin bean-to-bar dark chocolates, hand-tempered praline bonbons, and custom tasting assortments crafted in Lyon.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
